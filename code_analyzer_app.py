@@ -9,7 +9,7 @@ from langgraph.graph import StateGraph,START,END
 from langgraph.prebuilt import create_react_agent
 from operator import add
 #set your groq api key
-api_key = "YOUR_GROQ_API_KEY"
+api_key = os.getenv("GROQ_API_KEY")
 if not api_key:
     st.error("GROQ_API_KEY NOT set. please configure it.")
     st.stop()
