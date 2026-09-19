@@ -69,7 +69,7 @@ streamlit run code_analyzer_app.py
 The application will open in your browser.
 
 ## 🌐 Live Demo
-
+[Live Demo](https://kothabhavyasree-code-analyzer-code-analyzer-app-relfzy.streamlit.app/)
 The deployed Streamlit application is available through Streamlit Community Cloud.
 
 ## 👩‍💻 Author
